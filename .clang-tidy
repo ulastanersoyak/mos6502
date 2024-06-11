@@ -1,0 +1,17 @@
+Checks: "*,
+        -abseil-*,
+        -altera-*,
+        -android-*,
+        -fuchsia-*,
+        -google-*,
+        -llvm*,
+        -zircon-*,
+        -modernize-use-trailing-return-type,
+        -readability-magic-numbers,
+        -cppcoreguidelines-avoid-magic-numbers,
+        -readability-identifier-length
+        "
+WarningsAsErrors: '1'
+HeaderFilterRegex: ''
+FormatStyle:     none
+
